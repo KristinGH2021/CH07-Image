@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:gravity="start"
+        android:text="aaaaa" />
+
+    <LinearLayout
+        android:id="@+id/L1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="bbbbb" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/L2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/teal_700"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cccc" />
+
+    </LinearLayout>
+
+</RelativeLayout>

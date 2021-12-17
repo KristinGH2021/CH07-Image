@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="horizontal">
+
+    <tw.tcnr10.m0708.CircleImgView
+        android:id="@+id/m0708_img01"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/t001"
+        tools:ignore="ImageContrastCheck" />
+
+
+    <TextView
+        android:id="@+id/m0708_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/Margins"
+        android:layout_marginTop="@dimen/Margins"
+        android:text="@string/m0708_t002"
+        android:textColor="@color/Blue"
+        android:textSize="@dimen/fontsize20"
+        android:textStyle="bold" />
+
+</LinearLayout>
